@@ -1,0 +1,32 @@
+IVA=0.16
+propina=0.15
+
+Platillo = input('inserte el nombre del platillo')
+total = input('inserte el total del platillo')
+Platillo1 = input('inserte el nombre del platillo')
+total1 = input('inserte el total del platillo')
+Platillo2 = input('inserte el nombre del platillo')
+total2 = input('inserte el total del platillo')
+Platillo3 = input('inserte el nombre del platillo')
+total3 = input('inserte el total del platillo')
+Platillo4 = input('inserte el nombre del platillo')
+total4 = input('inserte el total del platillo')
+
+print('Platillo, '$, precio')
+print('Platillo1,'$, precio1')
+print('Platillo2,'$, precio2')
+print('Platillo3,'$, precio3')
+print('Platillo4,'$, precio4')
+
+subtotal = total+total1+total2+total3+total4
+
+print('Subtotal:$%.2f' %subtotal)
+
+Subtotal1=(Subtotal1*IVA)
+
+print('IVA:$%.2f' %subtotal1)
+
+Subtotal2 = propina*subtotal
+print('Propina', subtotal2)
+
+total=subtotal+subtotal1+subtotal2
